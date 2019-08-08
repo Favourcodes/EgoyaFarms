@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomePage"
+    tools:showIn="@layout/app_bar_home_page">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanks for choosing Egoya Farms, you're welcome!!"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <ImageView
+        android:id="@+id/tur"
+        android:layout_width="156dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/turk1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="137dp"
+        android:layout_height="108dp"
+        android:layout_below="@+id/txt"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/tur"
+        app:srcCompat="@drawable/snail" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turkey for sale at the rate of #50,000"
+        android:layout_below="@+id/tur"
+        android:textSize="10sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snails @#2,500 per kg"
+        android:layout_below="@+id/tur"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/txt1"
+        android:layout_marginLeft="18dp"/>
+
+    <ImageView
+        android:id="@+id/brl"
+        android:layout_width="153dp"
+        android:layout_height="145dp"
+        android:layout_below="@+id/txt2"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/broilers"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2kg Broilers @#2,000"
+        android:layout_toRightOf="@id/brl"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brl"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@drawable/catfish" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catfish sold @#2,500 per kg"
+        android:layout_toRightOf="@id/cat"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"/>
+
+
+</RelativeLayout>

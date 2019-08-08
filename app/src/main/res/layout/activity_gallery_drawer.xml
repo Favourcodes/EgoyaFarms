@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="take a quick look at our farm land"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/farm1"
+        android:layout_below="@id/take"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imVw1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/farm2"
+        android:layout_below="@id/imVw"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

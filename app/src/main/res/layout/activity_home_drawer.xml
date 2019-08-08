@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeDrawer">
+
+    <TextView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check out our products here"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="83dp"
+        android:layout_height="94dp"
+        android:layout_below="@+id/check"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/broilers" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="96dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/check"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/image2"
+        app:srcCompat="@drawable/catfish" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="81dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/img3"
+        app:srcCompat="@drawable/turk1" />
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note: These products vary in sizes so the prices also vary."
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

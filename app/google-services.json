@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "591212297785",
+    "firebase_url": "https://egoyafarms.firebaseio.com",
+    "project_id": "egoyafarms",
+    "storage_bucket": "egoyafarms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591212297785:android:6b259a2ec558b846",
+        "android_client_info": {
+          "package_name": "com.example.egoyafarms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591212297785-kitmrs1fflraff2e31giv3nleqbv874g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.egoyafarms",
+            "certificate_hash": "246a4783104ad9af73b061f24a588c25e59efb68"
+          }
+        },
+        {
+          "client_id": "591212297785-p257ptug5iuh7p8k53ktb0cv22la0m43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGB7rp5Pup55eiIe8GQYmOQBfUNOgr9xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591212297785-p257ptug5iuh7p8k53ktb0cv22la0m43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

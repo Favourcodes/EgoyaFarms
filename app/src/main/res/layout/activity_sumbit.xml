@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sumbit">
+
+    <ImageView
+        android:layout_width="183dp"
+        android:layout_height="163dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/thumbs_up"
+        android:layout_marginTop="100dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="50dp"
+        android:text="Your password has been changed successfully"
+        android:textSize="15dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/sum_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/skyBlue"
+        android:text="Click to Proceed"/>
+
+</LinearLayout>

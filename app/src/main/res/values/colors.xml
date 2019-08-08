@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5768C2</color>
+    <color name="colorPrimaryDark">#5768C2</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue">#273DA3</color>
+    <color name="skyBlue">#5768C2</color>
+    <color name="lilac">#C618DD</color>
+    <color name="orange">#EDD63D4F</color>
+    <color name="green">#ED46C2EB</color>
+</resources>
